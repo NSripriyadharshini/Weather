@@ -15,8 +15,44 @@ header{
 #brand>img{
     height: 50px;
     width:50px;
-    margin-left: 13%;
+    margin-left:5%;
     border-radius:15px;
+}
+#slideone{
+    width:100%;
+    height:280px;
+    border-top: 4px solid grey;   
+}
+.slideimg{
+    width:50%;
+    margin-left:5%;
+    margin-top:30px;
+    float:left;
+}
+#imgstrip{
+    height:80%;
+    width:100%;
+}
+
+.weather
+{
+    text-align:center;
+    margin-left:60%;
+    margin-top:30px;
+    width:30%;
+    border:2px groove blue;
+
+    height:80%;
+}
+.weather>h2{
+    margin-top:55px;
+}
+.weather>img{
+    height: 50px;
+    width:50px;
+}
+#weatherOut{
+    color:#8518d1;
 }
 #coupon
 {
@@ -165,8 +201,16 @@ h2 {
 .slideOne>img{
     margin-top:4%;
     height:170px;
-    width:100%;
+    width:70%;
 }
+.slideweather{
+    height:280px;
+    float left;
+    
+    
+}
+
+
 .slideTwo{
     height:330px;
 }
